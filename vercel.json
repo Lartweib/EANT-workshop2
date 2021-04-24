@@ -1,0 +1,13 @@
+{
+    "version" : 2,
+    "builds" : [
+        {
+            "src" : "*.py",     #cualquier archivo que termine en .py debe ejecutarlo con el interprete de py
+            "use" : "@vercel/python"
+        }
+    ],
+    "routes" : [{
+        "src" : "/.*",
+        "dest" : "app.py"
+    }]
+}
