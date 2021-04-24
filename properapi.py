@@ -3,8 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 import unicodedata
 from flask import Flask, json
-from os import environ
-from urllib.parse import urlencode
+
 
 app = Flask(__name__)
 
