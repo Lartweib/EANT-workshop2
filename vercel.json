@@ -2,7 +2,7 @@
     "version" : 2,
     "builds" : [
         {
-            "src" : "*.py",     #cualquier archivo que termine en .py debe ejecutarlo con el interprete de py
+            "src" : "*.py",     
             "use" : "@vercel/python"
         }
     ],
